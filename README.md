@@ -8,6 +8,7 @@ Welcome to the Movie Search App! This web application allows users to search for
 - **Detailed Information:** View comprehensive details about each movie, including release year, genre, director, cast, and plot summary.
 - **Dynamic Results:** Get real-time search results as you type, making it convenient to find the desired movie quickly.
 - **Responsive Design:** Enjoy a consistent user experience across various devices, including desktops, tablets, and smartphones.
+- **Data Storage:** Backend integrated with MongoDB to store and manage movie-related data.
 
 ## Technologies Used
 
@@ -16,17 +17,18 @@ Welcome to the Movie Search App! This web application allows users to search for
 - **Axios:** Promise-based HTTP client for making API requests.
 - **CSS:** Styling the application for a visually appealing user interface.
 - **IMDb API:** Utilizes IMDb API for fetching movie data.
+- **MongoDB:** NoSQL database used in the backend to store movie data securely.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/harshit0075/movie-search.git
+    git clone https://github.com/tammuharika/Movie_Search_Application.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd movie-search-app
+    cd Movie_Search_Application
     ```
 
 3. Install dependencies:
@@ -41,34 +43,9 @@ Welcome to the Movie Search App! This web application allows users to search for
 
 5. Open your web browser and visit `http://localhost:3000` to access the application.
 
-## Deployment
-
-The Movie Search App is deployed and accessible via this [link](https://6601c4d2829f002c9fc64d56--dainty-kataifi-2e1d20.netlify.app/).
-
 ## Usage
 
 1. Enter the title of the movie you want to search for in the provided search bar.
 2. As you type, the app will dynamically display matching results.
 3. Click on a movie to view detailed information about it.
 4. Enjoy exploring and discovering new movies!
-
-## Screenshots!
-**HomePage**
-![Screenshot 2024-03-26 001006](https://github.com/harshit0075/movie-search/assets/112869167/54bf60d0-e17f-46de-8434-481bdd105bec)
-
-**Details**
-![Screenshot 2024-03-26 001024](https://github.com/harshit0075/movie-search/assets/112869167/2cf39ec7-c698-44f3-b4bc-b04870ec34d1)
-
-**Searchs**
-![Screenshot 2024-03-26 001104](https://github.com/harshit0075/movie-search/assets/112869167/ba0191bc-89bf-4559-afb5-97b97e20c553)
-![Screenshot 2024-03-26 001145](https://github.com/harshit0075/movie-search/assets/112869167/9a8ea87a-fadd-4e99-963d-a6436bf4f9f2)
-
-**Responsivness**
-
-![Screenshot 2024-03-26 001230](https://github.com/harshit0075/movie-search/assets/112869167/4dd347a6-2c0e-417a-b3ae-9d403c764d86)
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-
